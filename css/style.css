@@ -1,0 +1,47 @@
+#sc {
+	color: #818181;
+	font-size: 20px;
+}
+
+.options {
+
+}
+
+.options .bg-success {
+	padding: 15px;
+	background-color: #E8E8E8;
+	border-right: 7px solid;
+	border-radius: 3px;
+}
+
+.options .bg-success.red {
+	border-color: #EF3636;
+}
+
+.options .bg-success.yellow {
+	border-color: #F9F956;
+}
+
+.options .bg-success.green {
+	border-color: #66A94A;
+}
+
+.options .bg-success.blue {
+	border-color: #2567A8;
+}
+
+.options .bg-success.airport {
+	border-color: #FF963F;
+}
+
+.options .bg-success.violet {
+	border-color: #551a8b;
+}
+
+.colophon {
+	border-top: 1px solid lightgrey;
+	margin-top: 2em;
+	padding-top: 1em;
+	margin-bottom: 2em;
+	text-align: center;
+}

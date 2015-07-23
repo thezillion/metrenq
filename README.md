@@ -1,2 +1,6 @@
-# metrenq
-Enables users to get proper travel directions while travelling on the Delhi Metro.
+# Metrenq #
+
+### What is Metrenq for? ###
+
+* Metrenq is for anyone who wants to travel from anywhere to anywhere on the Delhi Metro
+* 0.0.1
