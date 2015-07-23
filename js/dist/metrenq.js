@@ -611,14 +611,14 @@ $(document).ready(function() {
 
 	for (var i = 1; i<=139; i++) {
 		a = document.createElement("option");
-		$(a).html(i+": "+get_station_name(i));
+		$(a).html(get_station_name(i));
 		$(a).attr("value", i);
 		$("#boarding").append($(a));
 	}
 
 	for (i = 1; i<=139; i++) {
 		a = document.createElement("option");
-		$(a).html(i+": "+get_station_name(i));
+		$(a).html(get_station_name(i));
 		$(a).attr("value", i);
 		$("#deboarding").append($(a));
 	}
