@@ -1,6 +1,6 @@
 # Metrenq #
 
-### What is Metrenq for? ###
+### What? ###
 
-* Metrenq is for anyone who wants to travel from anywhere to anywhere on the Delhi Metro
-* 0.0.1
+* Metrenq is a web app that gives proper direction data to a user who intends to travel between two stations on the Delhi Metro.
+* It was created as a fun weekend project, because I was fascinated by the idea of displaying the Delhi Metro map in a few lines of code, and then utilizing that data to find the path between two different points(stations).
