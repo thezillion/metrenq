@@ -28,7 +28,7 @@ function render_multiple(routes) {
 
 	sorted.sort();
 
-	$(".options").html("");
+	$(".options").html(["<h3>", ko, " route", (ko==1?"":"s"), " found</h3>"].j());
 
 	for (var j = 0; sorted[j]; j++) {
 
