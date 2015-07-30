@@ -7,7 +7,10 @@ function find_route(from, to) {
 
 	get_routes(from, to);
 
-	render_multiple(possible_routes);
+	var x = [];
+	possible_routes.copyTo(x);
+
+	render_multiple(x);
 
 }
 

@@ -23,7 +23,7 @@ function render_multiple(routes) {
 	var sorted = [];
 
 	for (var ko = 0; routes[ko]; ko++) {
-		sorted.push(routes[ko].stations_count);
+		sorted.push([routes[ko].stations_count, "-", routes[ko].interchanges_count].j());
 	}
 
 	sorted.sort();
@@ -32,9 +32,13 @@ function render_multiple(routes) {
 
 	for (var j = 0; sorted[j]; j++) {
 
+		var rv = sorted[j].split("-"),
+		s_c = Math.abs(rv[0]),
+		i_c = Math.abs(rv[1]);
+
 		for (var k = 0; routes[k]; k++) {
 
-			if (routes[k].stations_count == sorted[j]) {
+			if (routes[k].stations_count == s_c && routes[k].interchanges_count == i_c) {
 
 				var stations_count = routes[k].stations_count,
 				directions = routes[k].directions,
