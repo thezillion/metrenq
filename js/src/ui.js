@@ -1,15 +1,15 @@
 function markupSelects() {
 
-	var a;
+	var a, p = Object.keys(stations).length;
 
-	for (var i = 1; i<=139; i++) {
+	for (var i = 1; i<=p; i++) {
 		a = document.createElement("option");
 		$(a).html(get_station_name(i));
 		$(a).attr("value", i);
 		$("#boarding").append($(a));
 	}
 
-	for (i = 1; i<=139; i++) {
+	for (i = 1; i<=p; i++) {
 		a = document.createElement("option");
 		$(a).html(get_station_name(i));
 		$(a).attr("value", i);

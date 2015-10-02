@@ -57,6 +57,7 @@ var stations = {
 	53: { name: "IFFCO Chowk", lines: ["yellow"] },
 	54: { name: "Huda City Centre", lines: ["yellow"] },
 
+	// ITO (140)
 	55: { name: "Mandi House", lines: ["violet", "blue"] },
 	56: { name: "Janpath", lines: ["violet"] },
 	57: { name: "Khan Market", lines: ["violet"] },
@@ -151,6 +152,8 @@ var stations = {
 	137: { name: "Delhi Aerocity", lines: ["airport"] },
 	138: { name: "IGD Airport", lines: ["airport"] },
 	139: { name: "IGI Airport", lines: ["airport"] },
+	
+	140: { name: "ITO", lines: ["violet"] },
 },
 lines = {
 	"red": {
@@ -190,7 +193,7 @@ lines = {
 	},
 	"violet": {
 		name: "Violet",
-		stations: [55, 56, 35, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71],
+		stations: [140, 55, 56, 35, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71],
 		intersections: {}
 	},
 	"airport" : {
