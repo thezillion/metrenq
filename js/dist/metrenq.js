@@ -23,6 +23,9 @@ var stations = {
 	20: { name: "Jhilmil", lines: ["red"] },
 	21: { name: "Dilshad Garden", lines: ["red"] },
 
+	// 142 (Shalimar Palace)
+	// 143 (Rohini Sector 18)
+	// 144 (Badli)
 	22: { name: "Jahangirpuri", lines: ["yellow"] },
 	23: { name: "Adarsh Nagar", lines: ["yellow"] },
 	24: { name: "Azadpur", lines: ["yellow"] },
@@ -75,6 +78,7 @@ var stations = {
 	69: { name: "Mohan Estate", lines: ["violet"] },
 	70: { name: "Tughlakabad", lines: ["violet"] },
 	71: { name: "Badarpur", lines: ["violet"] },
+	// Faridabad (141)
 
 	72: { name: "Ashok Park Main", lines: ["green", "green2"] },
 	73: { name: "Satguru Ram Singh Marg", lines: ["green2"] },
@@ -154,6 +158,13 @@ var stations = {
 	139: { name: "IGI Airport", lines: ["airport"] },
 	
 	140: { name: "ITO", lines: ["violet"] },
+	
+	141: { name: "Faridabad", lines: ["violet"] },
+
+	142: { name: "Shalimar Palace", lines: ["yellow"] },
+	143: { name: "Rohini Sector 18", lines: ["yellow"] },
+	144: { name: "Badli", lines: ["yellow"] },
+
 },
 lines = {
 	"red": {
@@ -173,7 +184,7 @@ lines = {
 	},
 	"yellow": {
 		name: "Yellow",
-		stations: [22, 23, 24, 25, 26, 27, 28, 29, 14, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54],
+		stations: [144, 143, 142, 22, 23, 24, 25, 26, 27, 28, 29, 14, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54],
 		intersections: {}
 	},
 	"blue": {
@@ -193,7 +204,7 @@ lines = {
 	},
 	"violet": {
 		name: "Violet",
-		stations: [140, 55, 56, 35, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71],
+		stations: [140, 55, 56, 35, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 141],
 		intersections: {}
 	},
 	"airport" : {
